@@ -10,4 +10,4 @@ The figures are generated from `msi.csv` and the other MSI csv files by `msi_plo
 
 # Reference #
 
-Dafermos, Y, Gabor, D. and Michell, J., ["Institutional Supercycles: An Evolutionary Macro-Finance Approach"][https://www.rebuildingmacroeconomics.ac.uk/managing-supercycles], Rebuilding Macroeconomics Working Paper 15, 
+Dafermos, Y, Gabor, D. and Michell, J., ["Institutional Supercycles: An Evolutionary Macro-Finance Approach"](https://www.rebuildingmacroeconomics.ac.uk/managing-supercycles), Rebuilding Macroeconomics Working Paper 15, 
