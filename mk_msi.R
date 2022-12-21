@@ -3,7 +3,7 @@ require(tidyverse)
                                         # Years for moving average calcuation
 MOV_YEARS  <- 5
 
-CEILINGS  <- c("cred_gdp", "ca_def")
+CEILINGS  <- c("cred_gdp", "ca_def", "ass_cap")
 FLOORS    <- c("gdp_gr", "shr_gr", "emp")
 CORRIDORS <- c("cpi_gr", "hpg_gr")
                                         # Prepare to calculate the MSI
@@ -19,7 +19,7 @@ ds_trans  <- cty_data %>%
     select(-source) %>%
     pivot_wider(names_from = "series") %>%
     mutate(emp = 1-unemp,
-           ca_def = 1-ca_gdp,
+           ca_def = -ca_gdp,
            ass_cap = 1/lev) %>%
     drop_na() %>%
     pivot_longer(!c(year, iso2), names_to = "series") %>%

@@ -1,6 +1,6 @@
 # Macrofinancial stability index #
 
-The code in this repository compiles the macrofinancial stability index (MSI) presented in Dafermos et al. (2020) and generates the figures for the paper.
+The code in this repository compiles the macrofinancial stability index (MSI) presented in Dafermos et al. (2023) and generates the figures for the paper.
 
 Source data are downloaded directly from various sources, cleaned and compiled by `download_data.R` and saved as `country_data.csv`. You will need an API key for FRED, add this add the top of the file.
 
